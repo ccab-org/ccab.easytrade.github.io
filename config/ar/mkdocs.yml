@@ -1,0 +1,59 @@
+site_name: واجهة برمجة تطبيقات استعلام تداول EasyTrade
+docs_dir: '../../docs/ar'                           
+site_dir: '../../site/ar' 
+theme:
+  name: material
+  language: ar
+  logo: assets/Vector.png
+  theme:
+  features:
+    - navigation.expand
+  palette:
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: dark mode
+
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: light mode  
+extra_css:
+  - stylesheets/extra.css
+nav:
+    - مقدمة: index.md
+    - دليل البدء السريع:
+      - كيفية المصادقة على API: quickStart/howToAuthenticate.md
+      - كيفية استخدام العرض التوضيحي لواجهة برمجة التطبيقات: quickStart/howToConsult.md
+    - توثيق:
+      - الكتابة والتنسيق: documentation/typesFormat.md
+      - رموز الإرجاع: documentation/returnCode.md
+    - واجهات برمجة تطبيقات الاستعلام:
+      - تداول سهل: apis/easytrade.md
+      - شريك: apis/associate.md
+      - شركة: apis/company.md
+    - يدعم:
+      - اتصال: contact/support.md
+plugins:
+   - swagger-ui-tag
+   - search
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-     
+      Usamos cookies para reconhecer suas visitas repetidas e preferências, bem como
+      para medir a eficácia de nossa documentação e se os usuários
+      encontrar o que eles estão procurando. Com o seu consentimento, você está nos ajudando a
+      tornar nossa documentação melhor.
+
+  alternate:   
+
+    - name: Portuguese
+      link: /pt/
+      lang: pt
+
+    - name: Arabic
+      link: /ar/
+      lang: ar
