@@ -3,7 +3,7 @@
 <h3>عرض API هو بيئة اختبار API ، مع بيانات نموذجية ، من أجل إظهار تشغيل API. لتستخدمها:</h3>
 
 1. الوصول إلى واجهات برمجة تطبيقات الاستعلام في خيار Associate
-2. تسجيل الدخول: https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login
+2. تسجيل الدخول: https://api.hom.ellos.org.br/ellos/associate/api/Associate/login
 3. قم بالوصول إلى EasyTrade Customs API واختر الطريقة (نقطة النهاية) للاختبار
 4. انقر فوق <b> جربه </b>
 5. أدخل أي رؤوس تريدها و / أو قم بتغيير محتوى نص الطلب

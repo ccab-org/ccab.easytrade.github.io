@@ -14,4 +14,4 @@ checagens de informações sobre as Empresas e serviços da plataforma.
 O contratante terá acesso a todas as informações relacionadas a plataforma do EasyTrade.
 
 
-Para mais informações sobre a consulta acesse o [Ellos](https://ellos.dev.casaarabe.org.br/Login).
+Para mais informações sobre a consulta acesse o [Ellos](https://hom.ellos.org.br/Login).

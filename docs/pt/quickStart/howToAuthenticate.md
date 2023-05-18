@@ -11,12 +11,12 @@ Para consultar as APIs, é necessário obter um token de acesso temporário (Bea
 
 <b>Como solicitar o Token de Acesso (Bearer)</b>
 
-Para solicitar o token temporário é necessário realizar uma requisição HTTP POST para o endpoint https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login.
+Para solicitar o token temporário é necessário realizar uma requisição HTTP POST para o endpoint https://api.hom.ellos.org.br/ellos/associate/api/Associate/login.
 
 Fornecendo o email e a senha, faça a requisição a API.
 ```
 
-curl -X POST "https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login"\
+curl -X POST "https://api.hom.ellos.org.br/ellos/associate/api/Associate/login"\
 -H "accept: application/json" \
 -H "Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21" \
 
@@ -30,7 +30,7 @@ Informamos o tipo de dados que estamos requerendo, nesse caso JSON
 - [HEADER] Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21
 Informamos o token de acesso recebido
 
-- [POST] https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login
+- [POST] https://api.hom.ellos.org.br/ellos/associate/api/Associate/login
 
 Exemplo de requisição esperada:
 
@@ -63,7 +63,7 @@ Exemplo de resposta esperada:
 De posse do Token de Acesso, faça a requisição a API.
 ```
 
-curl -X GET "https://api.dev.casaarabe.org.br/ellos/easytrade-exportation/api/Exportation/details/145292508cc6c1b4347fe05cdc4a36bc98025cec532a8e5c24fe46de057c2b56"\
+curl -X GET "https://api.hom.ellos.org.br/ellos/easytrade-exportation/api/Exportation/details/145292508cc6c1b4347fe05cdc4a36bc98025cec532a8e5c24fe46de057c2b56"\
 -H "accept: application/json" \
 -H "Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21" \
 
@@ -77,10 +77,10 @@ Informamos o tipo de dados que estamos requerendo, nesse caso JSON
 - [HEADER] Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21
 Informamos o token de acesso recebido
 
-- [GET] https://api.dev.casaarabe.org.br/ellos/easytrade-exportation/api/Exportation/details/145292508cc6c1b4347fe05cdc4a36bc98025cec532a8e5c24fe46de057c2b56
+- [GET] https://api.hom.ellos.org.br/ellos/easytrade-exportation/api/Exportation/details/145292508cc6c1b4347fe05cdc4a36bc98025cec532a8e5c24fe46de057c2b56
 
 Chamamos a url da API e o método desejado. No caso, a url base é
- "https://api.dev.casaarabe.org.br/ellos/easytrade/api/”, e o método é o 
+ "https://api.hom.ellos.org.br/ellos/easytrade/api/”, e o método é o 
  "Exportation/details/145292508cc6c1b4347fe05cdc4a36bc98025cec532a8e5c24fe46de057c2b56".
 
  Exemplo de resposta esperada:

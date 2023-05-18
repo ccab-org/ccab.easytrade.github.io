@@ -11,12 +11,12 @@
 
 <b>كيفية طلب رمز الوصول (الحامل)</b>
 
-لطلب الرمز المميز المؤقت ، من الضروري تقديم طلب HTTP POST إلى نقطة النهاية https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login.
+لطلب الرمز المميز المؤقت ، من الضروري تقديم طلب HTTP POST إلى نقطة النهاية https://api.hom.ellos.org.br/ellos/associate/api/Associate/login.
 
 تقديم البريد الإلكتروني وكلمة المرور ، قم بتقديم الطلب إلى API.
 ```
 
-curl -X POST "https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login"\
+curl -X POST "https://api.hom.ellos.org.br/ellos/associate/api/Associate/login"\
 -H "accept: application/json" \
 -H "Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21" \
 
@@ -30,7 +30,7 @@ curl -X POST "https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/log
 - [HEADER] تفويض: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21
 نبلغ رمز الوصول المستلم
 
-- [POST] https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/login
+- [POST] https://api.hom.ellos.org.br/ellos/associate/api/Associate/login
 
 مثال على الطلب المتوقع:
 
@@ -63,7 +63,7 @@ curl -X POST "https://api.dev.casaarabe.org.br/ellos/associate/api/Associate/log
 في حالة امتلاك رمز الوصول ، قم بتقديم الطلب إلى واجهة برمجة التطبيقات.
 ```
 
-curl -X GET "https://api.dev.casaarabe.org.br/ellos/easytrade-customs/api/Exportation/details"\
+curl -X GET "https://api.hom.ellos.org.br/ellos/easytrade-customs/api/Exportation/details"\
 -H "accept: application/json" \
 -H "Authorization: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21" \
 
@@ -77,10 +77,10 @@ Informamos o tipo de dados que estamos requerendo, nesse caso JSON
 - [HEADER] تفويض: Bearer eyJraWQiOiI4aTV5cndFMVlreGc4M0FWXC9MTWFacHk0b0J0TEJ6a01yN21
 Informamos o token de acesso recebido
 
-- [GET] https://api.dev.casaarabe.org.br/ellos/easytrade-customs/api/Exportation/details
+- [GET] https://api.hom.ellos.org.br/ellos/easytrade-customs/api/Exportation/details
 
 نحن نسمي عنوان url الخاص بواجهة برمجة التطبيقات (API) والطريقة المطلوبة. في هذه الحالة ، عنوان url الأساسي هو
- "https://api.dev.casaarabe.org.br/ellos/easytrade-customs/api/”, والطريقة هي
+ "https://api.hom.ellos.org.br/ellos/easytrade-customs/api/”, والطريقة هي
  "Exportation/details?idCompany=147&idExportation=edb65905c98da3cd5f55d0c251ec582254ecd353a0a257aec2b33e6f384b5b28".
 
  مثال على الاستجابة المتوقعة:
